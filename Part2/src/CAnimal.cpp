@@ -74,7 +74,7 @@ std::string CAnimal::specimenPresentation()
     return specPres;
 }
 
-float CAnimal::moveAll(float seconds)
+float CAnimal::moving(float seconds)
 {
     float distance = velocity * seconds;
     return distance;

@@ -28,7 +28,7 @@ class CAnimal
         /// Assignment specific methods.
         std::string     wakeUp();                   /// Get animal sound (as a sentence).
         std::string     specimenPresentation();     /// Get animal name and specimen (as a sentence).
-        float           moveAll(float seconds);     /// Return how far the animal moves in x amount of seconds (as a sentence).
+        float           moving(float seconds);      /// Return how far the animal moves in x amount of seconds (as a sentence).
 
     protected:
         const std::string   taxonomy;   /// The taxonomic order of the animal.

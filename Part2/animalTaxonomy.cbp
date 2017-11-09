@@ -57,6 +57,7 @@
 		<Unit filename="include/CPinniped.h" />
 		<Unit filename="include/CSeals.h" />
 		<Unit filename="include/CWalrus.h" />
+		<Unit filename="include/CZoo.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/CAnimal.cpp" />
 		<Unit filename="src/CBears.cpp" />
@@ -68,6 +69,7 @@
 		<Unit filename="src/CPinniped.cpp" />
 		<Unit filename="src/CSeals.cpp" />
 		<Unit filename="src/CWalrus.cpp" />
+		<Unit filename="src/CZoo.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
