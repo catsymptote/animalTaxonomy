@@ -2,24 +2,30 @@
 #include <string>
 
 #include "CAnimal.h"
-#include "CFissipedia.h"
-#include "CBears.h"
+    #include "CFissipedia.h"
+        #include "CDogs.h"
+        #include "CBears.h"
+        #include "CCats.h"
+    #include "CPinniped.h"
+        #include "CEaredSeal.h"
+        #include "CWalrus.h"
+        #include "CSeals.h"
+
 
 
 int main()
 {
-    std::cout << "Animal Taxonomy class inheritance example code." << std::endl;
+    std::cout << "Animal Taxonomy class inheritance example code.\n" << std::endl;
 
     CAnimal *pZoo[3];
 
     /// Create objects.
-    CBears *brownBear;
-    brownBear = new CBears("Ursidae", "Winnie the Pooh", "growl", 5.0);
-    CBears *grizzlyBear = new CBears("Ursidae", "Dat bear from the telly", "growlie", 7.0);
-    CBears *kodaBear = new CBears("Ursidae", "Brother Bear", "growlzz", 2.4);
-    pZoo[0] = brownBear;
-    pZoo[1] = grizzlyBear;
-    pZoo[2] = kodaBear;
+    CBears  *growlie    = new CBears("Ursidae", "Winnie the Pooh", "growl", 5.0);
+    CCats   *meow       = new CCats("Felidae", "Mjau", "meow ;3", 3.0);
+    CDogs   *woof       = new CDogs("Canidae", "Woofsie", "raff raff", 3.5);
+    pZoo[0] = growlie;
+    pZoo[1] = meow;
+    pZoo[2] = woof;
 
     /// Run assignment specific functions.
     for(int i = 0; i < 3; i++)

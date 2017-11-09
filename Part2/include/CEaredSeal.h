@@ -6,6 +6,8 @@
 
 class CEaredSeal : public CPinniped
 {
+    using CPinniped::CPinniped;
+
     public:
         CEaredSeal();
         virtual ~CEaredSeal();

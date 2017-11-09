@@ -6,6 +6,8 @@
 
 class CDogs : public CFissipedia
 {
+    using CFissipedia::CFissipedia;
+
     public:
         CDogs();
         virtual ~CDogs();

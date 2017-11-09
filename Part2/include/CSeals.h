@@ -6,6 +6,8 @@
 
 class CSeals : public CPinniped
 {
+    using CPinniped::CPinniped;
+
     public:
         CSeals();
         virtual ~CSeals();

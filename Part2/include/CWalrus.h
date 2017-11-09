@@ -6,6 +6,8 @@
 
 class CWalrus : public CPinniped
 {
+    using CPinniped::CPinniped;
+
     public:
         CWalrus();
         virtual ~CWalrus();

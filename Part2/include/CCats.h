@@ -6,6 +6,8 @@
 
 class CCats : public CFissipedia
 {
+    using CFissipedia::CFissipedia;
+
     public:
         CCats();
         virtual ~CCats();

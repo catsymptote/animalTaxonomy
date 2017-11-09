@@ -6,6 +6,8 @@
 
 class CPinniped : public CCarnivora
 {
+    using CCarnivora::CCarnivora;
+
     public:
         CPinniped();
         virtual ~CPinniped();

@@ -62,7 +62,7 @@ float CAnimal::getVelocity()
 }
 
 
-/// Assignment specific methods.
+/// Assignment specific methods (kill with fire?).
 std::string CAnimal::wakeUp()
 {
     return sound;
