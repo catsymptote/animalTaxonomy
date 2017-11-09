@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="animalTaxonomy" />
+		<Option pch_mode="2" />
+		<Option compiler="mingw-w64" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/animalTaxonomy" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="mingw-w64" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-m64" />
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-m64" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/animalTaxonomy" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="mingw-w64" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++11" />
+					<Add option="-m64" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-m64" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++11" />
+			<Add option="-m64" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Linker>
+			<Add option="-m64" />
+		</Linker>
+		<Unit filename="include/CAnimal.h" />
+		<Unit filename="include/CBears.h" />
+		<Unit filename="include/CCarnivora.h" />
+		<Unit filename="include/CCats.h" />
+		<Unit filename="include/CDogs.h" />
+		<Unit filename="include/CEaredSeal.h" />
+		<Unit filename="include/CFissipedia.h" />
+		<Unit filename="include/CPinniped.h" />
+		<Unit filename="include/CSeals.h" />
+		<Unit filename="include/CWalrus.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/CAnimal.cpp" />
+		<Unit filename="src/CBears.cpp" />
+		<Unit filename="src/CCarnivora.cpp" />
+		<Unit filename="src/CCats.cpp" />
+		<Unit filename="src/CDogs.cpp" />
+		<Unit filename="src/CEaredSeal.cpp" />
+		<Unit filename="src/CFissipedia.cpp" />
+		<Unit filename="src/CPinniped.cpp" />
+		<Unit filename="src/CSeals.cpp" />
+		<Unit filename="src/CWalrus.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
