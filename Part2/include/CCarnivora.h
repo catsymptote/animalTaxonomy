@@ -6,6 +6,8 @@
 
 class CCarnivora : public CAnimal
 {
+    using CAnimal::CAnimal;
+
     public:
         CCarnivora();
         virtual ~CCarnivora();

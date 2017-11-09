@@ -6,6 +6,8 @@
 
 class CBears : public CFissipedia
 {
+    using CFissipedia::CFissipedia;
+
     public:
         CBears();
         virtual ~CBears();

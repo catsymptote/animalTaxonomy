@@ -6,6 +6,8 @@
 
 class CFissipedia : public CCarnivora
 {
+    using CCarnivora::CCarnivora;
+
     public:
         CFissipedia();
         virtual ~CFissipedia();
